@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		h1 { color:#200000; font-family: Consolas, monaco, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+		h2 { color:#200000; font-family: Consolas, monaco, monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 19.6px; }
+		h3 { color:#200000; font-family: Consolas, monaco, monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
+		p { color:#002009; font-family: Consolas, monaco, monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }
+		ol { margin:10px; color:#002009; font-family: Consolas, monaco, monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }
+		ul { margin:10px; color:#002009; font-family: Consolas, monaco, monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }
+		blockquote { font-family: Consolas, monaco, monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 30px; }
+		pre { font-family: Consolas, monaco, monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 18.5714px; }
+		i { font-weight:600; color:#002800; }
+		b { color:#300030; }
+		a { color:#0039C6; }
+	</style> <!-- previous: (b)35005B, (a)0050CB -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Kai Xu's homepage </title>
+	<style>
+		.container { position: relative; display: inline-block; }
+		.image { width: 600px; height: 300px; display: block; }
+		.hover-text { position: absolute; bottom:5px; right:-405px; display: none;
+			color:#002009; font-family: Consolas, monaco, monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }
+		.container:hover .hover-text { display: block; }
+	</style>
+</head>
+<body style="background-color:#F5F4EF;">
+<div><!-- The head -->
+	<p>Welcome to my homepage. My name is <u>Hongkai Zhu</u>.</p>
+	<p>
+		I'm a first year doctorate student in mathematics at CU Boulder, mentored by <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/kluh/">Kyle Luh</a>.
+		I graduated from Duke University and Duke Kunshan University in 2024. </p>
+	<p>
+		<b>Research interests.</b> I am interested in probability, in particular random matrix theory and probabilistic combinatorics.
+	</p>
+	<p> Here is my <a target="_blank" rel="noopener noreferrer" href="files/CV_kaiz.pdf">CV</a>.</p>
+	<p> Contact me: <a href="mailto:hongkai.zhu@colorado.edu">hongkai.zhu@colorado.edu</a>. </p>
+</div>
+<!-- <div>
+	<h2> Publications and preprints </h2>
+	<ol>
+		<!-- Templates:
+			[<a target="_blank" rel="noopener noreferrer" href="">arxiv</a>]
+			<a target="_blank" rel="noopener noreferrer" href=""></a>
+			-->
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2512.14591">arxiv</a>]
+			joint with <a target="_blank" rel="noopener noreferrer" href="https://homepage.univie.ac.at/luca.benatti/">Luca Benatti</a>, <a target="_blank" rel="noopener noreferrer" href="https://www.unimi.it/en/ugov/person/luciano-mari">Luciano Mari</a>, Marco Rigoli and Alberto G. Setti,
+			<i>Proper solutions of the 1/H-flow and the Green kernel of the p-Laplacian</i>,
+			preprint, 2025.</li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2505.18320">arxiv</a>]
+			joint with <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/gioacchinoantonelli/home-page?authuser=1">Gioacchino Antonelli</a>,
+			<i>Connected sum of manifolds with spectral Ricci lower bounds</i>,
+			preprint, 2025, accepted by <b>Proc. Amer. Math. Soc</b>. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2502.09727">arxiv</a>][<a target="_blank" rel="noopener noreferrer" href="https://onlinelibrary.wiley.com/doi/10.1002/cpa.70029">journal</a>]
+			joint with <a target="_blank" rel="noopener noreferrer" href="https://web.stanford.edu/~ochodosh/">Otis Chodosh</a>
+			and <a target="_blank" rel="noopener noreferrer" href="https://sites.uci.edu/yilai/">Yi Lai</a>,
+			<i>3-Manifolds with positive scalar curvature and bounded geometry</i>, <b>Comm. Pure Appl. Math.</b>, to appear. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2501.09149">arxiv</a>]
+			joint with <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/dkazaras-homepage">Demetre Kazaras</a>,
+			<i>Codimension 2 drawstrings with scalar curvature lower bounds</i>,
+			preprint, 2025, submitted. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2412.12707">arxiv</a>]
+			joint with <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/gioacchinoantonelli/home-page?authuser=1">Gioacchino Antonelli</a>
+			and <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/marco-pozzetta-homepage/home">Marco Pozzetta</a>,
+			<i>A sharp spectral splitting theorem</i>,
+			preprint, 2024, submitted. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2405.15181">arxiv</a>]
+			<i>Inverse mean curvature flow with outer obstacle</i>,
+			preprint, 2024, submitted. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2405.08918">arxiv</a>]
+			joint with <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/gioacchinoantonelli/home-page?authuser=1">Gioacchino Antonelli</a>,
+			<i>New spectral Bishop-Gromov and Bonnet-Myers theorems and applications to isoperimetry</i>,
+			preprint, 2024, submitted. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2312.00138">arxiv</a>][<a target="_blank" rel="noopener noreferrer" href="https://ems.press/journals/jems/articles/14299127">journal</a>]
+			joint with <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/dkazaras-homepage">Demetre Kazaras</a>
+			and <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/antoinesong/home">Antoine Song</a>,
+			<i>Scalar curvature and volume entropy of hyperbolic 3-manifolds</i>,
+			<b>J. Eur. Math. Soc.</b>, to appear. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2309.03756">arxiv</a>]
+			joint with <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/dkazaras-homepage">Demetre Kazaras</a>,
+			<i>Drawstrings and flexibility in the Geroch conjecture</i>, preprint, 2023, submitted. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2307.01922">arxiv</a>][<a target="_blank" rel="noopener noreferrer" href="https://projecteuclid.org/journals/duke-mathematical-journal/volume-174/issue-8/A-topological-gap-theorem-for-the-%cf%802-systole-of-positive/10.1215/00127094-2024-0061.full">journal</a>]
+			<i>A topological gap theorem for the &pi;2-systole of positive scalar curvature 3-manifolds</i>,
+			<b>Duke Math. J.</b> 174(8), 1647-1664. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2307.00725">arxiv</a>][<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/s00526-024-02832-3">journal</a>]
+			<i>Isoperimetry and the properness of weak inverse mean curvature flow</i>,
+			<b>Calc. Var. Partial Differential Equations</b> 63, 216 (2024). </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2301.02730">arxiv</a>][<a target="_blank" rel="noopener noreferrer" href="https://www.ams.org/journals/tran/2025-378-03/S0002-9947-2024-09332-7/?active=current">journal</a>]
+			<i>Dimension constraints in some problems involving intermediate curvature</i>,
+			<b>Trans. Amer. Math. Soc.</b> 378 (2025), 2091-2112. </li>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2211.11715">arxiv</a>]
+			<i>On closed surfaces with nonnegative curvature in the spectral sense</i>, preprint, 2022, submitted. </li>
+	</ol>
+</div> -->
+<div>
+	<h2> Notes </h2>
+	<ul>
+		<li> [<a target="_blank" rel="noopener noreferrer" href="files/exercises.pdf">pdf</a>]
+			<i>Solutions to Topics in Random Matrix Theory by Terence Tao</i>.
+			<!--<a target="_blank" rel="noopener noreferrer" href="imcf_project.html">More info...</a></li>-->
+		<!-- <li> [<a target="_blank" rel="noopener noreferrer" href="files/note_stable_bernstein.pdf">pdf</a>]
+			<i>A note on the stable Bernstein theorem</i>,
+			written with <a target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/gioacchinoantonelli/home-page?authuser=1">Gioacchino
+		--> 
+Antonelli</a>. </li>
+	</ul>
+</div>
+<div>
+	<h2> Teaching </h2>
+	<p>
+		<ul>
+			<li> Spring 2026: Math 2300, Calculus 2 (TA) </li>
+			<li> Fall 2025: Math 2300, Calculus 2 (TA). </li>
+		</ul>
+	</p>
+</div>
+<!-- <div>
+	<h2> Invited talks </h2>
+	<ul>
+		<li> Dec 2025: Department colloquium, Caltech. </li>
+		<li> Nov 2025: Mathematical Physics Seminar, UC Davis. </li>
+		<li> Nov 2025: Geometry and Analysis Seminar, UC Santa Cruz. </li>
+		<li> Jul 2025: Convergence or Scalar Curvature workshop (online). </li>
+		<li> May 2025: A <a a target="_blank" rel="noopener noreferrer" href="https://jintian111.github.io/Jintian.github.io/seminar.html"> geometry analysis seminar</a> in China (online).</li>
+		<li> May 2025: Geometric analysis seminar, National Center for Theoretical Sciences (online). </li>
+		<li> May 2025: <a target="_blank" rel="noopener noreferrer" href="https://cims.nyu.edu/~tosatti/simons.html">Simons workshop on geometric analysis</a>, Courant Institute.</li>
+		<li> Apr 2025: Geometry-topology seminar, UPenn.</li>
+		<li> Apr 2025: A <a target="_blank" rel="noopener noreferrer" href="https://geometry-topology.github.io/">geometry and topology seminar</a> in China (online).</li>
+		<li> Apr 2025: Geometry seminar, Lehigh University.</li>
+		<li> Feb 2025: Differential geometry seminar, UC Irvine.</li>
+		<li> Feb 2025: Differential geometry seminar, UC Berkeley.</li>
+		<li> Jan 2025: Geometry & topology seminar, Caltech.</li>
+		<li> Nov 2024: Graduate student seminar, SLMath. </li>
+		<li> Oct 2024: Analysis seminar, Cornell University. </li>
+		<li> Apr 2024: Geometric analysis seminar, Peking University / BICMR (online). </li>
+		<li> Apr 2024: Geometry seminar, Michigan State University. </li>
+		<li> Mar 2024: Geometric analysis and topology seminar, New York University / Courant Institute. </li>
+		<li> Mar 2024: Geometry seminar, Chinese University of Hong Kong. </li>
+		<li> Feb 2024: BIRS Workshop "Recent advances in comparison geometry", IASM Hangzhou, China. </li>
+		<li> Nov 2023: Geometry and topology seminar, Duke University. </li>
+		<li> Oct 2023: Geometric analysis seminar, University of Chicago. </li>
+		<li> Oct 2023: Geometry seminar, Westlake University (online). </li>
+		<li> Oct 2023: Geometry seminar, Stanford University. </li>
+		<li> Jul 2023: CUHK-CUNY compactness and scalar curvature workshop (online). </li>
+		<li> Oct 2022: Geometry seminar, North Carolina State University. </li>
+	</ul>
+</div> -->
+</body>
+</html>
